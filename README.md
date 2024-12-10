@@ -16,3 +16,5 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+Answer: To verify the claim of a O(n) comparison based sorting algorithm we would experimentally test its runtime by sorting lists of varying sizes and plotting the runtime against input size to see if it scales linearly if that makes sense. But theoretical analysis suggests that such a claim contradicts the known (nlogn) lower bound for comparison-based sorting algorithms, derived from the number of comparisons required to distinguish n! permutations. If the algorithm achieves O(n) it must either leverage additional input assumptions or use non comparison based techniques, like those in radix or bucket sort. Experiments can provide evidence but theoretical constraints make the claim seem like it is likely false unless the algorithm deviates.
