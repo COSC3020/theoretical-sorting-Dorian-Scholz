@@ -16,3 +16,5 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+Answer: To verify the claim of an O(n)time sorting algorithm based on comparisons you would conduct empirical tests by measuring the runtime on various input sizes, types, and edge cases.
